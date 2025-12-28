@@ -8,7 +8,9 @@ This repository contains my basic DSA codes:
 - Linked List  
 - Stack  
 - Queue  
-- OOP Concepts (class, inheritance)
+- Dequeue
+- searching
+- sorting
 
 Languages used: C++
 
