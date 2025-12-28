@@ -10,7 +10,7 @@ int main()
     cout << "size of array:";
     cout << sizeof(arr) << endl;
 
-    cout << "Number of element:";
+    cout << "Number of element: ";
     cout << sizeof(arr) / sizeof(arr[0]) << endl;
 
     cout << "data type size:" << endl;
@@ -18,9 +18,9 @@ int main()
     float b;
     char c;
     bool d;
-    cout << sizeof(a) << endl;
-    cout << sizeof(b) << endl;
-    cout << sizeof(c) << endl;
-    cout << sizeof(d) << endl;
+    cout << "for int "<<sizeof(a) << endl;
+    cout << "for float "<<sizeof(b) << endl;
+    cout << "for char "<<sizeof(c) << endl;
+    cout << "for bool "<<sizeof(d) << endl;
     return 0;
 }

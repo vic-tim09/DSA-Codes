@@ -1,19 +1,22 @@
+// user input array
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     int n;
     cout << "Enter the size of array: ";
     cin >> n;
 
     int arr[n];
     cout << "Enter all elements (space separated): ";
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         cin >> arr[i];
     }
 
-    cout << "Enter the key: ";
     int key;
+    cout << "Enter the key: ";
     cin >> key;
 
     cout << "You entered key = " << key << endl;
