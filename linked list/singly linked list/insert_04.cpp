@@ -38,7 +38,7 @@ int main()
     }
     // insert node at perticular position
     int x = 3; // insert position
-    int value = 30;
+    int value = 5;
     temp = Head;
 
     x--;

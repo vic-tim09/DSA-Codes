@@ -62,7 +62,7 @@ int main()
                 curr = curr->next;
             }
             
-                curr->prev->next = NULL;
+                curr->prev->next= NULL;
                 delete curr;
         }
     }
